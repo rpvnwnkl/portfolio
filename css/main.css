@@ -3,16 +3,20 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
 html, body {
 	background-color: #FFA79C;
 	color: #5E2D26;
+    font-family: "Noto Sans", sans-serif;
 }
 
 
 h1 {
 	font-size:5em;
 	line-height:2em;
+    font-family: "Noto Sans";
+    font-weight: 700;
+
 }
 
 hr {
@@ -93,10 +97,19 @@ hr {
 	padding-top:0.05em;
 
 }
+#contact p {
+    font-size:0.6em;
+    line-height: 1.1em;
+    font-family: "Noto Sans";
+    font-weight: 400;
+}
+.pad1 {
+    margin-bottom:1.5em;
+}
 .portlabel {
 	text-align: center;
-	padding-left: 0.15em;
-	padding-right: 0.15em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 	margin-bottom: 0.25em;
 	margin-top:0.55em;
 	margin-bottom:0.65em;
@@ -203,7 +216,6 @@ margin-bottom:4em;
     border: none;
     border-radius: 0px 0px 0px 0px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    display: none;
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -232,7 +244,7 @@ margin-bottom:4em;
 .thumbnails .offset3 {
     margin-left: 25.641025641025642%;
 }
-/*.carousel-control {
+.carousel-control {
     background: none repeat scroll 0 0 #B35649;
     border: none;
     border-radius: 0px 0px 0px 0px;
@@ -278,7 +290,7 @@ margin-bottom:4em;
 }
 .carousel-indicators .active {
     background-color: #FFFFFF;
-}*/
+}
 .phone {
  margin-bottom:1em;
 }
@@ -321,8 +333,8 @@ margin-bottom:4em;
     height:400px;
 }
 .designheader {
-    background-image: url('../img/craft_fade.jpg');
+    background-image: url('../img/mcraft_svpply.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    height:400px;
+    height:900px;
 }
