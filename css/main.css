@@ -100,30 +100,7 @@
     font-style: normal;
 
 }
-/*@font-face {
-font-family: Carved-one;
-src: url("../fonts/awconquerorcarved-one.otf") format("opentype");
-}
-@font-face {
-font-family: Carved-two;
-src: url("../fonts/awconquerorcarved-two.otf") format("opentype");
-}
-@font-face {
-font-family: Carved-three;
-src: url("../fonts/awconquerorcarved-three.otf") format("opentype");
-}
-@font-face {
-font-family: Carved;
-src: url("../fonts/awconquerorcarved-regular.otf") format("opentype");
-}
-@font-face {
-font-family: Carved-sans;
-src: url("../fonts/awconquerorsans-light.otf") format("opentype");
-}
-@font-face {
-font-family: Carved-inline;
-src: url("../fonts/awconquerorinline-regular.otf") format("opentype");
-}*/
+
 html, body {
 	background-color: #FFA79C;
 	color: #5E2D26;
@@ -153,27 +130,7 @@ hr {
     margin: 20px 0;
 }
 
-.navbar-green {
-	background-color: rgb(178, 86, 73);
-	background-color: rgba(178, 86, 73, 0.8);
-    background-image: none;
-    background-repeat: none:;
-    border: none;
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
-    min-height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-
-.breadcrumb a, .breadcrumb, .divider {
- font-family: carved-three, helvetica, sans-serif;
- font-size: 1.3em;
-/* line-height: 1em;
-*/}
-
+/*
 .navbar .nav > li > a {
     color: #5E2D26;
     float: left;
@@ -192,7 +149,7 @@ hr {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
     color: #9CFFCE;
     text-decoration: none;
-}
+}*/
 #introtitle h1 {
     font-family: carved, helvetica, sans-serif;
     font-weight: normal;
@@ -287,7 +244,10 @@ hr {
 
 }
 
-
+.breadcrumb a, .breadcrumb, .divider {
+ font-family: carved-three, helvetica, sans-serif;
+ font-size: 1.3em;
+}
 
 .breadcrumb a {
 	color: #5E2D26;
@@ -309,7 +269,7 @@ hr {
     padding: 0 5px;
 }
 
-.lazy {
+.lazy, .lazy1, .lazy2, .lazy3,.lazy4 {
   display: none;
 
 }
