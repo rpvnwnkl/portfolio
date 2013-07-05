@@ -3,19 +3,45 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+/*@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+*/
+@font-face {
+font-family: Carved-one;
+src: url("../fonts/awconquerorcarved-one.otf") format("opentype");
+}
+@font-face {
+font-family: Carved-two;
+src: url("../fonts/awconquerorcarved-two.otf") format("opentype");
+}
+@font-face {
+font-family: Carved-three;
+src: url("../fonts/awconquerorcarved-three.otf") format("opentype");
+}
+@font-face {
+font-family: Carved;
+src: url("../fonts/awconquerorcarved-regular.otf") format("opentype");
+}
+@font-face {
+font-family: Carved-sans;
+src: url("../fonts/awconquerorsans-light.otf") format("opentype");
+}
+@font-face {
+font-family: Carved-inline;
+src: url("../fonts/awconquerorinline-regular.otf") format("opentype");
+}
 html, body {
 	background-color: #FFA79C;
 	color: #5E2D26;
-    font-family: "Noto Sans", sans-serif;
+    font-family: carved-sans, helvetica, sans-serif;
 }
 
-
+.carved-three {
+    font-family: carved-three,helvetica, sans-serif;
+}
 h1 {
 	font-size:5em;
 	line-height:2em;
-    font-family: "Noto Sans";
-    font-weight: 700;
+    font-family: carved-one, helvetica, sans-serif;
 
 }
 
@@ -45,25 +71,13 @@ hr {
     padding-right: 20px;
 }
 
-.brand-box {
-    background: url("../img/mm.png") center center no-repeat;
-    font-size: 0;
-    z-index:100;
-    margin-left: 0px;
-    height: 35px;
-    width:71px;
-    margin-top:3px;
 
-}
-.brand-box img {
-    -webkit-transition: all .2s;
-        margin-left: 0px;
 
-}
-.brand-box img:hover {
-    opacity: 0;
-
-}
+.breadcrumb a, .breadcrumb, .divider {
+ font-family: carved-three, helvetica, sans-serif;
+ font-size: 1.3em;
+/* line-height: 1em;
+*/}
 
 .navbar .nav > li > a {
     color: #5E2D26;
@@ -85,6 +99,8 @@ hr {
     text-decoration: none;
 }
 #introtitle h1 {
+    font-family: carved, helvetica, sans-serif;
+    font-weight: normal;
 	font-size:1.2em;
 	line-height: 0.5em;
 	margin: 0 0 0 0em;
@@ -97,11 +113,10 @@ hr {
 	padding-top:0.05em;
 
 }
-#contact p {
+#contact li {
     font-size:0.6em;
     line-height: 1.1em;
-    font-family: "Noto Sans";
-    font-weight: 400;
+    font-family: carved-sans, helvetica, sans-serif;
 }
 .pad1 {
     margin-bottom:1.5em;
@@ -129,14 +144,22 @@ hr {
 }
 .portlabel h1 {
 	font-size:2em;
+    font-family: carved-inline, helvetica, sans-serif;
+    font-weight: normal;
 	color: #9CFFCE;
 	line-height:1.5em;
-	padding-bottom: 0.15em;
-
 }
-.portlabel h1:hover {
+.portlabel h1:hover, .portlabel h2:hover {
 	color: #5E2D26;
 }
+.portlabel h2 {
+    font-size:1.8em;
+    font-family: carved-inline, helvetica, sans-serif;
+    font-weight: normal;
+    color: #9CFFCE;
+    line-height:1.2em;
+}
+
 .portlabel a:hover {
 		text-decoration: none;
 
@@ -145,9 +168,11 @@ hr {
     text-decoration: none;
 }
 .portlabel h3 {
+    font-family: carved-two,helvetica,sans-serif;
+    font-weight:normal;
     color: #9CFFCE;
-    font-size:1.8em;
-    line-height:1.5em;
+    font-size:1.2em;
+    line-height:1.3em;
 
 }
 .portlabel h3:hover {
@@ -333,8 +358,14 @@ margin-bottom:4em;
     height:400px;
 }
 .designheader {
-    background-image: url('../img/mcraft_svpply.jpg');
+    background-image: url('../img/mcraft_svpply_top.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    height:900px;
+    height:500px;
+}
+.rightbox {
+    margin-top:1em;
+}
+.social img {
+    margin: 0 auto;
 }
