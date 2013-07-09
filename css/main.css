@@ -107,6 +107,13 @@ html, body {
     font-family: carved-sans, helvetica, sans-serif;
 }
 
+p {
+    font-family:carved-light, helvetica, sans-serif;
+}
+#home a, #contact a {
+    color: #9CFFCE;
+    text-decoration: none;
+}
 .carved-three {
     font-family: carved-three,helvetica, sans-serif;
 }
