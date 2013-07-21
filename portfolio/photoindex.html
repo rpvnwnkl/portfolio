@@ -28,39 +28,49 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-        <div class="visible-desktop">
+        <!-- <div class="visible-desktop">
             <a href="#top" id="toTop"></a>
-        </div>
-        <ul class="breadcrumb">
-                    <li><a href="../">MM&#8201;</a><span class="divider">/&#8201;</span></li>
-                    <li><a href="../portfolio/index.html">Portfolio&#8201;</a><span class="divider">/&#8201;</span></li>
-                    <li class="active"><a href="../portfolio/photoindex.html">Photography&#8201;</a></li>
-        </ul>
+        </div> -->
+       
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span4 leftbox">
+                <div class="span12 breadcrumb-bg">
+                    <ul class="breadcrumb">
+                        <li><a href="../">MM&#8201;</a><span class="divider">/&#8201;</span></li>
+                        <li><a href="../portfolio/index.html">Portfolio&#8201;</a><span class="divider">/&#8201;</span></li>
+                        <li class="active"><a href="../portfolio/photoindex.html">Photography&#8201;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6 offset3 leftbox">
                     <ul class="unstyled" id="myTab">
                         <li><div id="ho" class="portlabel"><a data-toggle="tab" href="#home"></a></div></li>
-                        <li><div id="people" class="portlabel"><a data-toggle="tab" href="#Portraits"><h3>People</h3></a></div></li>
-                        <li><div id="places" class="portlabel"><a data-toggle="tab" href="#Spaces"><h3>Places</h3></a></div></li>
-                        <li><div id="things" class="portlabel"><a data-toggle="tab" href="#Objects"><h3>Things</h3></a></div></li>
+                        <li><div id="people" class="portlabel tub"><a data-toggle="tab" href="#Portraits"><h3>People</h3></a></div></li>
+                        <li><div id="places" class="portlabel tub"><a data-toggle="tab" href="#Spaces"><h3>Places</h3></a></div></li>
+                        <li><div id="things" class="portlabel tub"><a data-toggle="tab" href="#Objects"><h3>Things</h3></a></div></li>
+                        <li><div id="insta" class="portlabel"><a href="http://instagram.com/mmmattt/" target="_blank"><h3>Iphone</h3></a></div></li>
                         <!-- <li><div id="polaroids" class="portlabel"><a data-toggle="tab" href="#Polaroids"><h3>Polaroids</h3></a></div></li>
                         <li><div id="iphone" class="portlabel"><a data-toggle="tab" href="#iPhone"><h3>iPhone</h3></a></div></li> -->
 
                     </ul>
                 </div>
-                <div class="span8 rightbox tab-content">
+            </div>
+        </div>
+        <div class="lucked-up">
+            <div class="row-fluid locked-up">
+                <div class="span8 offset2 rightbox tab-content">
                     <!--landing div-->
                     <div id="home" class="tab-pane">
-                        <div class="span10 mefish offset1">
+                        <!-- <div class="span10 mefish offset1">
                         <img class="" src="../img/oq_studio_cc.jpg" width="100%" height="auto">
-                        </div>
+                        </div> -->
                     </div>
                     <!-- portraits div -->
                     <div id="Portraits" class="tab-pane">
-                        <div class="span10 offset1">
+                        <div class="span12">
                         
-                        <img class="lazy person" src="../img/grey.gif" data-original="../img/person_mira.jpg"  width="100%" height="">
+                        <img class="laz person" src="../img/grey.gif" data-original="../img/person_mira.jpg"  width="100%" height="">
                             <noscript><img src="../img/person_mira.jpg" width="100%" height=""></noscript>
                     
                         <!-- <img class="lazy person" src="../img/grey.gif" data-original="../img/person_kelly_painter.jpg"  width="100%" height="">
@@ -100,64 +110,11 @@
                             <noscript><img src="../img/person_sacha.jpg" width="100%" height=""></noscript>  -->
                             </div>
                     </div>
-                    <!--Polaroids div-->
-                    <!-- <div id="Polaroids" class="tab-pane">
-                        <div class="span10 offset1">
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_gym1.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_gym1.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_gym2.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_gym2.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_stillwater.jpg"  width="100%" heigh="auto">
-                                <noscript><img src="../img/polar_stillwater.jpg" width="100%" height="auto"></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_dome1.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_dome1.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_dome2.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_dome2.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_dome3.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_dome3.jpg" width="100%" height=""></noscript>
-
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_cemetary1.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_cemetary1.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_cemetary2.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_cemetary2.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_cemetary3.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_cemetary3.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_abstract.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_abstract.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_coy.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_coy.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_cpond1.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_cpond1.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_cpond2.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_cpond2.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_doves.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_doves.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_kelly.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_kelly.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_orono_tree.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_orono_tree.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_sawyer_camp.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_sawyer_camp.jpg" width="100%" height=""></noscript>
-                            <img class="lazy polaroid" src="../img/grey.gif" data-original="../img/polar_surplus.jpg"  width="100%" height="">
-                                <noscript><img src="../img/polar_surplus.jpg" width="100%" height=""></noscript>
-                        </div>
-                    </div> -->
+                    
                     <div class="tab-pane" id="Spaces">
-                        <div class="span10 offset1">
-                        <!-- <img class="lazy space" src="../img/grey.gif" data-original="../img/space_rumford_shop.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_rumford_shop.jpg" width="100%" height=""></noscript> 
-                        <img class="lazy space" src="../img/grey.gif" data-original="../img/space_andover.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_andover.jpg" width="100%" height=""></noscript> 
-                        <img class="lazy space" src="../img/grey.gif" data-original="../img/space_bethel.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_bethel.jpg" width="100%" height=""></noscript> 
-                        <img class="lazy space" src="../img/grey.gif" data-original="../img/space_rumford_legion.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_rumford_legion.jpg" width="100%" height=""></noscript> 
-                        <img class="lazy space" src="../img/grey.gif" data-original="../img/space_campside.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_campside.jpg" width="100%" height=""></noscript> 
-                        <img class="lazy space" src="../img/grey.gif" data-original="../img/space_umbagog.jpg"  width="100%" height="">
-                            <noscript><img src="../img/space_umbagog.jpg" width="100%" height=""></noscript>-->
-                            
-                            <img class="lazy1 space" src="../img/grey.gif" data-original="../img/space_irish_studio.jpg"  width="100%" height="">
+                        <div class="span12">
+                        
+                            <img class="laz space" src="../img/grey.gif" data-original="../img/space_irish_studio.jpg"  width="100%" height="">
                                 <noscript><img src="../img/space_irish_studio.jpg" width="100%" height=""></noscript>  
                             <img class="lazy1 space" src="../img/grey.gif" data-original="../img/space_church.jpg"  width="100%" height="">
                                 <noscript><img src="../img/space_church.jpg" width="100%" height=""></noscript>  
@@ -179,10 +136,7 @@
                                 <noscript><img src="../img/space_paris.jpg" width="100%" height=""></noscript> 
                             <img class="lazy1 space" src="../img/grey.gif" data-original="../img/space_paris_sacrecouer.jpg"  width="100%" height="">
                                 <noscript><img src="../img/space_paris_sacrecouer.jpg" width="100%" height=""></noscript>
-                            <!-- <img class="lazy space" src="../img/grey.gif" data-original="../img/space_urinals.jpg"  width="100%" height="">
-                                <noscript><img src="../img/space_urinals.jpg" width="100%" height=""></noscript>  
-                            <img class="lazy space" src="../img/grey.gif" data-original="../img/space_bienalle_corner.jpg"  width="100%" height="">
-                                <noscript><img src="../img/space_bienalle_corner.jpg" width="100%" height=""></noscript> --> 
+                            
                             <div id="orono-dome" class="carousel slide thumbox">
                                 <ol class="carousel-indicators">
                                 <li data-target="#orono-dome" data-slide-to="0" class="active"></li>
@@ -290,9 +244,9 @@
                     </div>
                 </div>
                     <div class="tab-pane" id="Objects">
-                        <div class="span10 offset1">
+                        <div class="span12">
                             
-                            <img class="lazy2 thing" src="../img/grey.gif" data-original="../img/thing_cookies.jpg"  width="100%" height="">
+                            <img class="laz thing" src="../img/grey.gif" data-original="../img/thing_cookies.jpg"  width="100%" height="">
                                 <noscript><img src="../img/thing_cookies.jpg" width="100%" height=""></noscript>
                             <img class="lazy2 thing" src="../img/grey.gif" data-original="../img/thing_barn.jpg"  width="100%" height="">
                                 <noscript><img src="../img/thing_barn.jpg" width="100%" height=""></noscript>
@@ -332,50 +286,7 @@
                                 <noscript><img src="../img/thing_cats.jpg" width="100%" height=""></noscript>
                         </div>
                     </div>
-                    <!-- <div class="tab-pane" id="iPhone">
-                        <div class="span9 offset1">
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_01.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_01.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_02.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_02.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_03.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_03.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_04.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_04.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_05.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_05.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_06.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_06.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_07.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_07.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_08.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_08.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_09.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_09.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_10.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_10.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_11.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_11.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_12.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_12.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_13.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_13.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_14.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_14.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_15.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_15.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_16.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_16.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_17.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_17.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_18.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_18.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_19.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_19.jpg" width="100%" height=""></noscript>
-                            <img class="lazy phone" src="../img/grey.gif" data-original="../img/phone_20.jpg"  width="100%" height="">
-                                <noscript><img src="../img/phone_20.jpg" width="100%" height=""></noscript>
-                        </div>
-                    </div> -->
+                    
                 </div>
             </div>
         
@@ -389,7 +300,7 @@
         <script src="../js/jquery_lazyload/jquery.lazyload.js" type="text/javascript"></script>
         <script src="../js/vendor/bootstrap.min.js"></script>
         <script src="../js/FitText.js/jquery.fittext.js"></script>
-        <script src="../js/jquery.scrollToTop.min.js"></script>
+        <!--<script src="../js/jquery.scrollToTop.min.js"></script>-->
 
         <script src="../js/main.js"></script>
         
@@ -397,7 +308,18 @@
         $('#people').fitText(1.4);
         $('#places').fitText(1.4);
         $('#things').fitText(1.4);
-        $('#myTab a:first').tab('show');
+        $('#insta').fitText(1.4);
+        $('.tub').click(function (e) {
+            $('.lucked-up').show();
+        });
+        $('.tab-pane').click(function (e) {
+            e.preventDefault();
+            $('#myTab a[href="#home"]').tab('show');
+            $('.lucked-up').hide();
+        });
+        $("img.laz").lazyload({
+            event:"load"
+        });        
         $("img.lazy").show().lazyload({
         threshold : 200
         });
@@ -407,9 +329,9 @@
         $("img.lazy2").show().lazyload({
         threshold : 200
         });
-        $(function() {
-                $("#toTop").scrollToTop(1000);
-            });
+        // $(function() {
+        //         $("#toTop").scrollToTop(1000);
+        //     });
         $(".carousel").carousel('pause');
         function next(carouselId) {
         $((carouselId)).carousel('next');
