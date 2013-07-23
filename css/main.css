@@ -114,6 +114,12 @@ p {
     color: #9CFFCE;
     text-decoration: none;
 }
+#contact a {
+    color: #A52C20;
+}
+#contact a:hover, #contact a:focus {
+    color: #9CFFCE;
+}
 .carved-three {
     font-family: carved-three,helvetica, sans-serif;
 }
@@ -177,8 +183,8 @@ hr {
     line-height: 1.1em;
     font-family: carved-sans, helvetica, sans-serif;
 }
-.pad1 {
-    margin-bottom:1.5em;
+.pad1 li {
+    margin-bottom:0.5em;
 }
 .portlabel {
 	text-align: center;
