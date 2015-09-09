@@ -1,3 +1,6 @@
 [submodule "js/FitText.js"]
 	path = js/FitText.js
 	url = https://github.com/davatron5000/FitText.js.git
+[submodule "js/jquery_lazyload"]
+	path = js/jquery_lazyload
+	url = https://github.com/tuupola/jquery_lazyload.git
